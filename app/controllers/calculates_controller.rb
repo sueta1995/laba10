@@ -33,8 +33,7 @@ class CalculatesController < ApplicationController
 
     array.each_index do |x|
       temp << array[x]
-      if array[x] < array[x + 1]
-      else
+      unless array[x] < array[x + 1]
         result << temp
         temp = []
       end
