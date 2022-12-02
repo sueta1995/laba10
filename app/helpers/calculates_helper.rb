@@ -33,4 +33,10 @@ module CalculatesHelper
     @max_result = @result.max_by(&:length)
 		@all_data = { 'result': @result, 'max_result': @max_result }
 	end
+
+	def create_file
+		header = '<?xml-stylesheet type="text/xsl" href="output.xslt"?>'
+
+		File.open('public/output.xml', 'w') { |f| f.puts(header + @all_data.to_xml) } if defined? @all_data
+	end
 end

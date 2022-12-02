@@ -1,0 +1,22 @@
+<?xml-stylesheet type="text/xsl" href="output.xslt"?><?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <result type="array">
+    <result type="array">
+      <result type="integer">3412</result>
+    </result>
+    <result type="array">
+      <result type="integer">2135</result>
+      <result type="integer">1435346</result>
+    </result>
+    <result type="array">
+      <result type="integer">1346</result>
+    </result>
+    <result type="array">
+      <result type="integer">431</result>
+    </result>
+  </result>
+  <max-result type="array">
+    <max-result type="integer">2135</max-result>
+    <max-result type="integer">1435346</max-result>
+  </max-result>
+</hash>

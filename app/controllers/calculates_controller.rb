@@ -4,6 +4,8 @@
 class CalculatesController < ApplicationController
   before_action :set_numbers, only: %i[ create ]
 
+  after_action :create_file, only: %i[ create ]
+
   include CalculatesHelper
 
   def new; end
