@@ -3,17 +3,12 @@
 <hash>
   <result type="array">
     <result type="array">
-      <result type="integer">5</result>
-      <result type="integer">45</result>
-      <result type="integer">346</result>
-    </result>
-    <result type="array">
-      <result type="integer">36</result>
+      <result type="integer">235</result>
+      <result type="integer">4561451463</result>
     </result>
   </result>
   <max-result type="array">
-    <max-result type="integer">5</max-result>
-    <max-result type="integer">45</max-result>
-    <max-result type="integer">346</max-result>
+    <max-result type="integer">235</max-result>
+    <max-result type="integer">4561451463</max-result>
   </max-result>
 </hash>
