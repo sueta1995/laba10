@@ -2,9 +2,9 @@
 
 # class of controller
 class CalculatesController < ApplicationController
-  before_action :set_numbers, only: %i[ create ]
+  before_action :set_numbers, only: %i[create]
 
-  after_action :create_file, only: %i[ create ]
+  after_action :create_file, only: %i[create]
 
   include CalculatesHelper
 
