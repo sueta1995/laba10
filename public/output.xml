@@ -1,22 +1,38 @@
-<?xml-stylesheet type="text/xsl" href="output.xslt"?><?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='output.xslt'?>
 <hash>
   <result type="array">
     <result type="array">
-      <result type="integer">3412</result>
+      <result type="integer">125</result>
     </result>
     <result type="array">
-      <result type="integer">2135</result>
-      <result type="integer">1435346</result>
+      <result type="integer">5</result>
+      <result type="integer">234</result>
     </result>
     <result type="array">
-      <result type="integer">1346</result>
+      <result type="integer">5</result>
+      <result type="integer">324</result>
     </result>
     <result type="array">
-      <result type="integer">431</result>
+      <result type="integer">52</result>
+    </result>
+    <result type="array">
+      <result type="integer">35</result>
+      <result type="integer">135</result>
+    </result>
+    <result type="array">
+      <result type="integer">4</result>
+      <result type="integer">26</result>
+      <result type="integer">45</result>
+    </result>
+    <result type="array">
+      <result type="integer">7</result>
+      <result type="integer">3145</result>
     </result>
   </result>
   <max-result type="array">
-    <max-result type="integer">2135</max-result>
-    <max-result type="integer">1435346</max-result>
+    <max-result type="integer">4</max-result>
+    <max-result type="integer">26</max-result>
+    <max-result type="integer">45</max-result>
   </max-result>
 </hash>

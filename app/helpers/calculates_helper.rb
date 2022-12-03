@@ -35,8 +35,13 @@ module CalculatesHelper
 	end
 
 	def create_file
-		header = '<?xml-stylesheet type="text/xsl" href="output.xslt"?>'
+    data = @all_data.to_xml.split("\n")
+    data.delete_at(0)
 
-		File.open('public/output.xml', 'w') { |f| f.puts(header + @all_data.to_xml) } if defined? @all_data
+    header_version = ["<?xml version='1.0' encoding='UTF-8'?>"]
+		header_style = ["<?xml-stylesheet type='text/xsl' href='output.xslt'?>"]
+    output = header_version + header_style + data
+
+		File.open('public/output.xml', 'w') { |f| f.puts(output.join("\n")) } if defined? @all_data
 	end
 end
