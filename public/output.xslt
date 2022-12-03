@@ -16,7 +16,9 @@
                 </xsl:for-each>
             </table> -->
 
-            <xsl:value-of select="hash/max-result"/>
+            <div id="result">
+                <xsl:value-of select="hash/max-result"/>
+            </div>
         </body>
     </html>
 
