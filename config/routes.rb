@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   # resources :calculates, only: %i[new create]
   post 'calculates/create' => 'calculates#create'
+  get 'calculates/create'
 
   root to: 'calculates#new'
 

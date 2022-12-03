@@ -1,6 +1,6 @@
 module CalculatesHelper
 	def set_numbers
-		@numbers = params.require(:calculates).permit(:numbers)[:numbers].split(' ')
+		@numbers = params[:numbers].split(' ')
 	end
 
 	def valid?(array)
