@@ -4,15 +4,24 @@
   <result type="array">
     <result type="array">
       <result type="integer">1</result>
-      <result type="integer">2</result>
-      <result type="integer">3</result>
-      <result type="integer">4</result>
+      <result type="integer">5</result>
+    </result>
+    <result type="array">
+      <result type="integer">-1</result>
+      <result type="integer">45</result>
+    </result>
+    <result type="array">
+      <result type="integer">1</result>
+      <result type="integer">9</result>
+      <result type="integer">18</result>
+    </result>
+    <result type="array">
+      <result type="integer">1</result>
     </result>
   </result>
   <max-result type="array">
     <max-result type="integer">1</max-result>
-    <max-result type="integer">2</max-result>
-    <max-result type="integer">3</max-result>
-    <max-result type="integer">4</max-result>
+    <max-result type="integer">9</max-result>
+    <max-result type="integer">18</max-result>
   </max-result>
 </hash>
