@@ -23,14 +23,14 @@ RSpec.describe CalculatesController, type: :controller do
   end
 
   describe 'various input' do
-		it 'returns first output' do
-			get 'create', params: { numbers: '1 2 3 2 1 6 5' }
-			expect(assigns(:all_data)[:max_result]).to eq [1, 2, 3]
+    it 'returns first output' do
+      get 'create', params: { numbers: '1 2 3 2 1 6 5' }
+      expect(assigns(:all_data)[:max_result]).to eq [1, 2, 3]
     end
 
     it 'returns second output' do
       get 'create', params: { numbers: '1 5 -1 45 1 9 18 1' }
-			expect(assigns(:all_data)[:max_result]).to eq [1, 9, 18]
+      expect(assigns(:all_data)[:max_result]).to eq [1, 9, 18]
     end
   end
 end
